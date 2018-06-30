@@ -44,6 +44,12 @@
 		font-size: 1.5em;
 	}
 	
+	#bio_text {
+		font-size: 0.75em;
+		font-weight: bold;
+		width: 100%;
+	}	
+	
 	#centre_text {
 		overflow:auto;
 		margin: 0;
@@ -54,6 +60,11 @@
 		padding-right: 30px;
 		padding-bottom: 30px;
 		max-height: 80%;
+	}
+	
+	#alan_credit {
+		font-size: 7pt;
+		position: relative;
 	}
 }
 	
