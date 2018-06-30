@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* MEDIA QUERIES for responsive design */
+@media screen and (max-width: 800px) {
+	
+	.topBar {
+		position: fixed;
+		padding: 5%;
+	}
+	
+	.logo {
+		margin: 0;
+		loat: left;
+		width: 90%;
+		object-fit: scale-down;
+		min-height: 0;
+		min-width: 0;
+	}
+	
+	.social_links {
+		float: left;
+		padding-top: 15px;
+		margin: 0 auto;
+		width: 100%;
+		align-content: center;
+		
+	}
+	
+	.social_links ul {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.wrapper {
+		padding-top: 40%;
+	}
+	
+	#title h3 {
+		font-size: 2em;
+	}
+	
+	#title p {
+		font-size: 1.5em;
+	}
+	
+	#centre_text {
+		overflow:auto;
+		margin: 0;
+		float: left;
+		max-width: 100%;
+		padding-top: 0;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 30px;
+		max-height: 80%;
+	}
+}
+	

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a {
+	color: white;
+}
+
+#content {		/* Container for everything on top of background */
+	position: absolute;	
+	width: 100%;
+	height: 100%;
+}
+
+.topBar {
+	position: fixed;
+	width: 100%;
+	float: left;
+	z-index: 1;
+	background:inherit;
+	background-color: black;
+}
+
+.logo {		/* Left hand top corner page LOGO */
+	float: left;
+	margin: 2em 0 0 2em;
+	padding: 0;
+	max-height: 70px;
+}
+
+.logo img {
+	max-height: 70px;
+}
+
+
+/* Right hand top corner social media link icons */
+.social_links {
+	text-align: right;
+	float: right;
+	color: #FFF;
+	opacity: 0.75;
+	display: block;
+	margin: 3em;
+}
+	
+.social_links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+		
+}
+.social_links li {
+	float: left;
+	padding-left: 0.5em;
+}
+
+.wrapper {
+	overflow: auto;
+	z-index: 0;
+	width: 100%;
+	padding-top: 100px;
+}
+
+
+/* centred text in middle of page */
+#centre_text {
+	color: #FFF;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 80%;
+	position: relative;
+	height: 100%;
+	padding: 50px;
+}
+
+#title h3 {
+	font-size: 3.75em;
+}
+
+#title p {
+	font-size: 2.5em;
+}
+
+#bio {
+	padding: 5%;
+	background-color: rgba(0,0,0,0.52);
+}
+
+#bio_text {
+	font-size: 1.25em;
+}

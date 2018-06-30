@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+
+
+#background {
+	position: fixed;
+	width: 100%;
+	    /* The image used */
+    background-image: url("../images/wmp_page_bg_global.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#colour_cast {
+	position: fixed;
+	background-color: rgba(0,27,94,0.5);	
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+#alan_credit {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	color: white;
+	font-size: 9pt;
+	opacity: 0.5;
+}
+
+#alan_credit a {
+	color: oldlace;
+}
+
+img {
+	max-width: 100%;
+}
